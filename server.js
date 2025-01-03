@@ -12,7 +12,7 @@ const app = express();
 
 // CORS configuration (optional)
 const corsOptions = {
-  origin: 'https://ipetmypets-backend.onrender.com/',  // Replace with your frontend URL
+  origin: 'https://ipetmypets-backend.onrender.com',  // Replace with your frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
 };
 app.use(cors(corsOptions));
